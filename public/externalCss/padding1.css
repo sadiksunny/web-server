@@ -1,0 +1,19 @@
+ a:link  { color:red;
+ text-decoration:none;}
+ a:visited {color:green;
+ } 
+        a:hover{background-color:Green;
+		
+		        color:Red;
+				text-decoration:underline;
+				font-weight;bold;
+				}
+				a:active{background-color:Orange;
+				color:pink;}
+				h1,p {color:blue;}
+				span{
+				color:red;}
+				div{border: 2px solid Green;
+				position:absolute;
+				down:40px;
+				left:100px;}

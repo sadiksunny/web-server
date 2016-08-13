@@ -1,0 +1,19 @@
+body { 
+background-image:url("../images/list_background.jpg")}
+#ali1{
+
+    display: block;
+    margin: auto;
+    width: 50%;
+	border-radius: 100px;
+
+}
+
+#ali2{
+
+    display: block;
+    margin: auto;
+    width: 25%;
+	border-radius: 100px;
+
+}

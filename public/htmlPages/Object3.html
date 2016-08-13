@@ -1,0 +1,50 @@
+<! DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http:// www.w3.org/TR/xhtml1/DTD/xhtml1-transitinal.dtd">
+<html>
+<head>
+<title> Object3 </title>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+//Math Objects: using pi
+<!-- document.write (Math.PI); -->
+//Math Objects 
+
+<!-- var n = prompt ("Enter a number" , ""); -->
+<!-- var answer = Math.sqrt (n); -->
+<!-- alert ("The square root  of " + n + " is "  + answer); -->
+
+//Date Objects: cool experiment of interval writing
+
+  <!-- function doSomething (){ -->
+  <!-- document.write ("Hey!!");  -->
+ 
+ <!-- } -->
+
+ <!-- setInterval ("doSomething()" , 1000); -->
+ 
+ //Date Objects:Creating a clock
+ function writeTime (){
+ var  now = new Date ;
+ var hours = now.getHours ();
+ var mins = now.getMinutes ();
+ var seconds = now.getSeconds ();
+ document.write (hours + ":" + mins + ":" + seconds + "<br/>");
+ 
+ 
+ }
+ for(i=0;i<9;i++){
+   <!-- setInterval ("writeTime()" , 1000); -->
+   <!-- document.write("position :" +i); -->
+   writeTime();
+   document.write("sunny"+"</br>");
+  
+ } 
+
+ 
+</script>
+
+</html>

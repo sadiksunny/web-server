@@ -1,0 +1,41 @@
+<! DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http:// www.w3.org/TR/xhtml1/DTD/xhtml1-transitinal.dtd">
+
+<html>
+<head>
+
+<title> Accessing Forms </title>
+
+<script type="text/javascript">
+ function validator() {
+  if (document.Sunnysform.box.checked)
+  alert ("Yes its checked !");
+  
+  else {
+  alert ("no its not checked!!");
+ 
+ }
+ }
+</script>
+</head>
+
+<body>
+<!-- <form name="sunnysform"> -->
+<!--  Tor Name ko : <input type="text" name = "Nam"  /> -->
+<!--  Password de : <input type="password" name = "key" /> -->
+<!--  <input type="submit" value="tipa de" /> -->
+<!-- </form> -->
+
+<form name="Sunnysform">
+<input type="checkbox" name="box" />
+<input type = "button" value = "Press me!" onClick = "validator()" />
+</form>
+<script type="text/javascript">
+<!--  var x = document.forms[0].length;  -->
+ 
+ <!-- var x = document.sunnysform.elements[0].name;  -->
+ <!-- document.write(x); -->
+</script>
+
+</body>
+</html>

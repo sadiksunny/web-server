@@ -1,0 +1,121 @@
+<! DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http:// www.w3.org/TR/xhtml1/DTD/xhtml1-transitinal.dtd">
+<html>
+<head>
+<title> Arrays </title>
+</head>
+
+<body>
+<script type="text/javascript">
+// first way to create array
+ <!-- var people = new Array ("Sunny" , "Bunny" , "Tommy", "Bonny"); -->
+ 
+ <!-- document.write (people[3]); -->
+ 
+// another way
+<!-- var things = new Array (3); -->
+
+<!-- things [0] = "jersey shore"; -->
+<!-- things [1] = "s tendulkar"; -->
+<!-- things [2] = "b lara"; -->
+<!-- document.write (things[2]); -->
+
+//final way thats unlimited
+ <!-- var stuff = new Array (); -->
+<!-- stuff[0] = "Java"; -->
+<!-- stuff[1] = "Html"; -->
+<!-- stuff [2] = "CSS"; -->
+<!-- stuff [3] = "C" -->
+<!-- stuff [4] = "Python" -->
+
+<!-- document.write (stuff[4]); -->
+
+// array properties and methods
+
+<!-- var heroes = new Array ("Batman" , "Flash" , "Doomsday" , "Magneto"); -->
+
+<!-- var villains = new Array ("Joker" , "Harley quinn" , "Namor" , "Galactico");  -->
+
+<!-- var people = heroes.concat (villains); -->
+
+<!-- document.write(people[5]); -->
+
+// join 
+
+<!-- var movies = new Array ("XMEN" , "Johnny English", "Mafia", "Avatar"); -->
+
+<!-- var string1 = movies.join ("-"); -->
+
+<!-- document.write (string1); -->
+// pop 
+
+ <!-- var movies = new Array ("XMEN" , "Johnny English", "Mafia", "Avatar");  -->
+ <!-- document.write (movies[3] +  '<br/>'); -->
+ <!-- movies.pop (); -->
+ <!-- document.write (movies[3]); -->
+ <!-- movies.pop (); -->
+ <!-- document.write (movies[3]); -->
+
+ //reverse 
+ 
+<!--  var bp = new Array("head " , " mouth " , " hand " , " legs "); -->
+ <!-- bp.reverse(); -->
+
+ <!-- var string1 = bp.join (); -->
+ <!-- document.write (string1); -->
+
+ // push 
+<!--  var bp = new Array("head " , " mouth " , " hand " , " legs "); -->
+ <!-- bp.push ("brain"); -->
+ <!--  var string1 = bp.join (); -->
+ <!--  document.write (string1); -->
+ 
+ 
+ //sort
+ <!-- var bp = new Array("head " , " mouth " , " hand " , " legs "); -->
+ <!-- bp.sort (); -->
+ 
+ <!-- var string1 = bp.join (); -->
+ <!-- document.write (string1); -->
+ 
+ // prompt
+ <!-- var x = prompt ("Enter your name" , ""); -->
+ <!-- document.write ("Hello " + x); -->
+ 
+ // Add Array elements using a loop 
+ 
+<!--  var crap  = new Array (3); -->
+ <!-- for (i=0 ; i<3 ; i++ ) { -->
+ 
+<!-- crap[i] = prompt ("Add something to the array" ,  ""); -->
+
+ 
+ <!-- } -->
+ 
+ 
+<!--  document.write (crap [0] + crap [1] + crap [2]);
+  -->
+  
+  //Cool technique to printing Array
+  
+  <!-- var stuff = new Array  ("table " , " chair " , " box " , " door "); -->
+  <!-- stuff.sort(); -->
+  
+  <!-- for (i=0 ; i<stuff.length ; i++) { -->
+  
+  <!-- document.write (stuff[i] + "<br/>"); -->
+  <!-- } -->
+  
+ //Associative Arrays
+
+ var Sunny = new Array ();
+Sunny ["color"] = "blue";
+Sunny ["food"] = "burger";
+
+document.write ("sunnys favourite color is " + Sunny["color"]);
+</script>
+
+
+</body>
+
+</html>

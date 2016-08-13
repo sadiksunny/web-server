@@ -1,0 +1,9 @@
+  a:link {color:Green;
+        text-decoration:none;}
+ a:visited {color:Blue;}
+ a:hover{ color:Red;
+           font-family:Tahoma;
+		   font-size:40px;
+ font-style:bold;}
+ a:active {color:Purple;
+ }

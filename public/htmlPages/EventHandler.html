@@ -1,0 +1,27 @@
+<! DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http:// www.w3.org/TR/xhtml1/DTD/xhtml1-transitinal.dtd">
+<html>
+<head>
+
+<!-- <title> Event Handler </title> -->
+</head>
+<body onbeforeunload="alert('pageLoaded');" >
+<p> "hellow"</p>
+<script type="text/javascript">
+//this method is new insted of onUnload 
+function myConfirmation() {
+    return 'Are you sure you want to quit?';
+}
+window.onbeforeunload = myConfirmation;
+</script>
+
+<!-- <form>
+
+<input type="button" value = "touch me"  onCLick = "alert('ahhh!!');alert ('two times')"/>
+
+</form>
+<a href="http//:google.com" onMouseOver="alert('yoo!!');"> google </a>
+<br/>
+<a href="http//: bing.com" onmouseout="alert('boom!!');"> bing </a> -->
+</body>
+</html>
